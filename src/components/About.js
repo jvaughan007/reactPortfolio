@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const About = () => {
     return (
     <StyledAbout>
-        <div className="about">
+        <article className="about">
             <h2>About Me</h2>
             <div className="aboutDesc">
                 <div className="text">
@@ -27,13 +27,13 @@ const About = () => {
                 </p>
                 </div>
             </div>
-        </div>
+        </article>
     </StyledAbout>
 
     );
 }
 
-const StyledAbout = styled.div`
+const StyledAbout = styled.section`
 /* margin: 4rem 5rem; */
 
 .about {

@@ -9,7 +9,7 @@ const Projects = () => {
     return (
     <StyledProjects id="projects">
         <h2>Projects</h2>
-        <div className="projectsContainer">
+        <article className="projectsContainer">
 
             <div className="project">
                 <a href="https://production.d69b1cn1p32dn.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className='descContainer'>
                     <h3>Gaming Social Network</h3>
                     <p className='description'>
-                    Social networking website where gamers of all kinds can connect, create groups and share their thoughts about gaming
+                    Social networking website where gamers of all kinds can connect, create groups and share their thoughts about gaming!
                     </p>
                     <p>
                     <b>Technologies:</b> PostgreSQL, Express, React, NodeJS
@@ -36,7 +36,7 @@ const Projects = () => {
                 <h3>Kaimahi</h3>
                 <div className='descContainer'>
                     <p className='description'>
-                    Lead tracking and management application.
+                    Lead tracking and management application for people who like a "no-frills", straightforward, and easy to navigate contacts tracker.
                     </p>
                     <p>
                     <b>Technologies:</b> PostgreSQL, Express, React, NodeJS
@@ -46,8 +46,8 @@ const Projects = () => {
                     </div>
                 </div>    
             </div>
-        </div>
-        <div className="projectsContainer">
+        </article>
+        <article className="projectsContainer">
             <div className="project">
             <a href="https://petful-client.jvaughan007.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <img src={petful} alt='petful'/>
@@ -55,7 +55,7 @@ const Projects = () => {
                 <h3>Petful</h3>
                 <div className='descContainer'>
                     <p className='description'>
-                    Pet adoption application that uses linked list queues.
+                    Pet adoption application that I built to show how linked list queues can be implemented and used!
                     </p>
                     <p>
                     <b>Technologies:</b> PostgreSQL, Express, React, NodeJS
@@ -73,7 +73,7 @@ const Projects = () => {
                 <h3>Spaced Repetition</h3>
                 <div className='descContainer'>
                     <p className='description'>
-                    Language learning application using spaced repetition.
+                    Language learning application using spaced repetition build with spaced repetition for those looking to learn a language and see how data structures and algorithms can be implemented!
                     </p>
                     <p>
                         <b>Technologies:</b> PostgreSQL, Express, React, NodeJS
@@ -83,7 +83,7 @@ const Projects = () => {
                     </div>
                 </div>    
             </div>  
-        </div>
+        </article>
     </StyledProjects>
     );
 }
