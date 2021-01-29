@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className='descContainer'>
                     <h3>Gaming Social Network</h3>
                     <p className='description'>
-                    Social networking website where gamers of all kinds can connect, create groups and share their thoughts about gaming!
+                    Social networking website for gamers of all kinds to connect, create groups and share their thoughts about gaming!
                     </p>
                     <p>
                     <b>Technologies:</b> PostgreSQL, Express, React, NodeJS
@@ -55,7 +55,7 @@ const Projects = () => {
                 <h3>Petful</h3>
                 <div className='descContainer'>
                     <p className='description'>
-                    Pet adoption application that I built to show how linked list queues can be implemented and used!
+                    Pet adoption application that I built to show how linked list queues can be implemented and used for those who also enjoy their furry friends!
                     </p>
                     <p>
                     <b>Technologies:</b> PostgreSQL, Express, React, NodeJS
