@@ -8,15 +8,17 @@ const Contact = () => {
         <div className="formAndMap">
             <div className="contactForm">
                 <form action="https://formspree.io/f/moqprobv" method="POST">
-                    <label for="name">Name</label>
+                    <label>Name
                     <input type="text" name="name"/>
+                    </label>
 
-                    <label for="email">Email</label>
+                    <label>Email
                     <input type="text" name="_replyto" />
+                    </label>
 
-                    <label for="message">Message</label>
-                    <textarea name="message" className="message" rows="13"></textarea>
-                    
+                    <label>Message
+                    <textarea name="message" className="message" rows="13" ></textarea>
+                    </label>
 
                     {/* <!-- your other form fields go here --> */}
 

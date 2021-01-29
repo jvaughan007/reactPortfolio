@@ -47,6 +47,7 @@ const StyledIntro = styled.section`
 
         .intro{
             width: 50%;
+            background: black;
 
             h2 { 
                 color: #FFFAFA;
