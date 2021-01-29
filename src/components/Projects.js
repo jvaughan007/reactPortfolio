@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className='descContainer'>
                     <h3>Gaming Social Network</h3>
                     <p className='description'>
-                    Social networking website for gamers of all kinds to connect, create groups and share their thoughts about gaming!
+                    Social networking website for gamers of all kinds to connect, create groups and share their thoughts about gaming! Built to show how expansive a full-stack application can be!
                     </p>
                     <p>
                     <b>Technologies:</b> PostgreSQL, Express, React, NodeJS
