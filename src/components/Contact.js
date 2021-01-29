@@ -8,16 +8,16 @@ const Contact = () => {
         <div className="formAndMap">
             <div className="contactForm">
                 <form action="https://formspree.io/f/moqprobv" method="POST">
-                    <label>Name
-                    <input type="text" name="name"/>
+                    <label>
+                        Name <input type="text" name="name"/>
                     </label>
 
-                    <label>Email
-                    <input type="text" name="_replyto" />
+                    <label>
+                        Email <input type="text" name="_replyto" />
                     </label>
 
-                    <label>Message
-                    <textarea name="message" className="message" rows="13" ></textarea>
+                    <label>
+                        Message <textarea name="message" className="message" rows="13" ></textarea>
                     </label>
 
                     {/* <!-- your other form fields go here --> */}
@@ -42,7 +42,7 @@ const Contact = () => {
 }
 
 const StyledContact = styled.section`
-    margin: 0 2rem;
+    margin: 0 3rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -63,10 +63,13 @@ const StyledContact = styled.section`
                 background-color: #84aabc;
                 padding: 1rem;
                 box-shadow: 0 1rem 1rem gray;
+                width: 100%;
                 
 
                 label {
                     font-weight: bold;
+                    display: flex;
+                    flex-direction: column;
                 }
                 
                 input {

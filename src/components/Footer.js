@@ -15,6 +15,7 @@ const Footer = () => {
 const StyledFooter = styled.footer`
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 
     .copyright {
         width: 100%;

@@ -131,6 +131,7 @@ const StyledProjects = styled.section`
 
             p {
                 text-align: center;
+                padding: 0 1rem;
             }
 
             .descContainer {
