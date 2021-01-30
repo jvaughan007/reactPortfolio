@@ -73,7 +73,7 @@ const Projects = () => {
                 <h3>Spaced Repetition</h3>
                 <div className='descContainer'>
                     <p className='description'>
-                    Language learning application using spaced repetition build with spaced repetition for those looking to learn a language and see how data structures and algorithms can be implemented!
+                    Language learning application built with spaced repetition for those looking to learn a language and see how data structures and algorithms can be implemented!
                     </p>
                     <p>
                         <b>Technologies:</b> PostgreSQL, Express, React, NodeJS
