@@ -12,7 +12,7 @@ const Projects = () => {
         <article className="projectsContainer">
 
             <div className="project">
-                <a href="https://gaming-social-network-client.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.thegsn.xyz/" target="_blank" rel="noopener noreferrer">
                     <img src={gsn} alt='gsn'/>
                     </a>
                 <div className='descContainer'>
