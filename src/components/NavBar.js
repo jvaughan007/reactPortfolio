@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <StyledNav>
             <div className="navContainer">
-                <h1>JOSHCODES_IRL</h1>
+                <h1>Josh Vaughan</h1>
                 <ul className='nav-links'>
                     <li>
                         <a href='#home'>Home</a>

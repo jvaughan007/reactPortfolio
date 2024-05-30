@@ -13,12 +13,11 @@ const Intro = () => {
                     Greetings!
                 </h2>
                 <p>
-                    I'm Josh, a Full Stack Developer
-                    from Houston, TX!
+                    I'm Josh, a Full Stack and Automation Engineer
+                    located in League City, TX!
                 </p>
                 <p>
-                    I have a passion for creating simple 
-                    solutions for complex problems.
+                    I am currently seeking my next role, where I hope to join a development team and develop my hard and soft skills alike!
                 </p>
                 </div>
                 
